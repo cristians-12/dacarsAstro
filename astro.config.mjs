@@ -6,5 +6,5 @@ import react from '@astrojs/react';
 export default defineConfig({
     integrations: [react()],
     site: 'https://cristians-12.github.io/dacarsAstro',
-    // base: 'dacarsAstro', // Ruta base correcta
+    base: 'dacarsAstro', // Ruta base correcta
 });

@@ -1,11 +1,47 @@
-.hero{
-    display: flex;
-    justify-content: space-around;
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  padding-inline: 100px;
 }
-article{
-    width: 50%;
-    color: white;
+article {
+  width: 50%;
+  color: white;
 }
-figure{
-    width: 40%;
+
+* {
+  transition: all ease-in-out 0.2s;
+}
+
+article h1 {
+  font-size: 5rem;
+}
+
+figure {
+  width: 40%;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section2 figure {
+  width: 20%;
+}
+
+.section2 figure:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  article {
+    width: 100%;
+  }
+  figure {
+    width: 100%;
+  }
 }

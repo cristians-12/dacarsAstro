@@ -13,7 +13,7 @@ img {
   width: 100%;
 }
 ul {
-  gap: 10px;
+  gap: 50px;
   list-style: none !important;
   display: flex;
 }
@@ -22,4 +22,10 @@ ul li {
 }
 figure {
   width: 100px;
+}
+
+@media (max-width: 768px) {
+  ul {
+    display: none;
+  }
 }
