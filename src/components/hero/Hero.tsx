@@ -10,7 +10,12 @@ export default function Hero() {
         </article>
 
         <figure>
-          <img src="dacarsAstro/images/img.png" alt="" />
+          <img
+            src="dacarsAstro/images/img.png"
+            alt=""
+            decoding="async"
+            loading="lazy"
+          />
         </figure>
       </section>
       <section className="section2">

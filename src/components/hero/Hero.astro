@@ -1,0 +1,81 @@
+<main class="hero">
+  <section class="section1">
+    <article>
+      <h1>Bienvenido a nuestro sitio</h1>
+      <p>This is a simple hero component.</p>
+    </article>
+
+    <figure>
+      <img
+        src="dacarsAstro/images/img.png"
+        alt=""
+        decoding="async"
+        loading="lazy"
+      />
+    </figure>
+  </section>
+  <section class="section2">
+    <figure class="">
+      <img src="dacarsAstro/images/img1.png" alt="" />
+      <figcaption>Explora ahora!</figcaption>
+    </figure>
+    <figure class="">
+      <img src="dacarsAstro/images/img2.png" alt="" />
+      <figcaption>Explora ahora!</figcaption>
+    </figure>
+    <figure class="">
+      <img src="dacarsAstro/images/img3.png" alt="" />
+      <figcaption>Explora ahora!</figcaption>
+    </figure>
+  </section>
+</main>
+
+<style>
+  .section1 {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 100px;
+  }
+  article {
+    width: 50%;
+    color: white;
+  }
+
+  * {
+    transition: all ease-in-out 0.2s;
+  }
+
+  article h1 {
+    font-size: 5rem;
+  }
+
+  figure {
+    width: 40%;
+  }
+
+  .section2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .section2 figure {
+    width: 20%;
+  }
+
+  .section2 figure:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+    }
+    article {
+      width: 100%;
+    }
+    figure {
+      width: 100%;
+    }
+  }
+</style>
