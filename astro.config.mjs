@@ -8,6 +8,6 @@ export default defineConfig({
     site: 'https://cristians-12.github.io/dacarsAstro',
     base: 'dacarsAstro', // Ruta base correcta
     publicDir: 'public',
-    output: 'server',
+    // output: 'server',
     // adapter:
 });
