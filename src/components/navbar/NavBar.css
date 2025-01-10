@@ -1,12 +1,13 @@
 #navbar {
-  font-family: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans",
-    Arial, sans-serif;
+  /* font-family: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans",
+    Arial, sans-serif; */
   display: flex;
   align-items: center;
-  background-color: rgba(215, 151, 161,0.9);
+  background-color: rgba(215, 151, 161,0.8);
   font-weight: bolder;
   position: sticky;
   top: 0;
+  color: white;
 }
 img {
   width: 100%;
